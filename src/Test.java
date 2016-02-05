@@ -8,7 +8,7 @@ public class Test {
             Persona persona2 = new Persona("Nazareth","956123689");
             agenda.añadir(persona1);
             agenda.añadir(persona2);
-            
+            System.out.println("Hola");
             String buscado = "Juanma";
             System.out.printf("El telefono de %s es: %s\n",buscado,agenda.getTelefono(buscado));
             String buscado1 = "Nazareth";
