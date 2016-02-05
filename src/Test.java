@@ -7,8 +7,6 @@ public class Test {
             Persona persona1 = new Persona("Juanma","956987456");
             Persona persona2 = new Persona("Nazareth","956123689");
             agenda.añadir(persona1);
-            
-            System.out.println("Persona añadida");
             agenda.añadir(persona2);
             
             String buscado = "Juanma";
